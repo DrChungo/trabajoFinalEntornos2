@@ -1,0 +1,11 @@
+// Devuelve el número de millas equivalente a los quilómetros que recibe
+	// como parámetro.
+	public static double atmosferas(double mb) {
+		return redondear(mb * MB_A_ATM);
+	}
+
+	// Devuelve el número de millas equivalente a los quilómetros que recibe
+	// como parámetro.
+	public static double milibares(double atmosferas) {
+		return redondear(atmosferas / MB_A_ATM);
+	}
